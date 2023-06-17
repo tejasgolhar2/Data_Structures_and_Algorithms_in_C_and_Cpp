@@ -9,7 +9,7 @@ int main()
 
     cout << "The entered character value in ASCII Table is " << (int)c << endl;
 
-    // prints the ASCII Value of the character vis typecasting
+    // prints the ASCII Value of the character via typecasting
 
     // here we are comparing the character as ASCII value with the characters of given range
 

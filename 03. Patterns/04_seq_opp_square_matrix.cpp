@@ -14,7 +14,7 @@ int main()
                 4 3 2 1
     */
 
-    int i = 0; // for ith number of column
+    int i = 0; // for ith number of row
     while (i < num)
     {
         int j = 0;

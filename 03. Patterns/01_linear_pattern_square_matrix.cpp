@@ -18,10 +18,10 @@ int main()
     cout << "For sqaure pattern, Number of rows and columns are equal" << endl;
 
     int i = 0;
-    while (i < a) // for equal number of columns
+    while (i < a) // for 'a' number of rows
     {
         int j = 0;
-        while (j < a) // for 'a' number of rows
+        while (j < a) // for equal number of columns
         {
             cout << "* ";
             j++;

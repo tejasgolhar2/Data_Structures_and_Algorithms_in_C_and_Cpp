@@ -27,7 +27,7 @@ int main()
         // print first set of numbers
         int j1 = 0;
         int num1 = num - i;
-        while (num1)
+        while (num1)  // for num1 == 0; condition becomes false
         {
             cout << j1 + 1;
             j1++;

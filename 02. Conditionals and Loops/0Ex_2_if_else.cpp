@@ -18,13 +18,14 @@ int main(){
         cout<<" Don ";
     }
     cout<<a; //prints the value of a=24
-
+    cout<<"\n";
     return 0;
 
-    //conclusion:
-    //            if the attempted first condition is found true then the dataflow comes 
-    //     out of the conditional statements regardless of whether the rest/followed conditions are true or not
+/*  Conclusion:
 
-    //output: My name 24
-    
+    If the attempted first condition is found true then the dataflow comes 
+    out of the conditional statements regardless of whether the rest/followed conditions are true or not
+
+    output: My name 24
+*/    
 }

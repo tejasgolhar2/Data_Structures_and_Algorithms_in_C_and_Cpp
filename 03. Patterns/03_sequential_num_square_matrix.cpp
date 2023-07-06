@@ -17,10 +17,10 @@ int main()
             1 2 3 4
     */
     int j = 0;
-    while (j < num) // for jth column
+    while (j < num) // for jth row
     {
         int i = 0;
-        while (i < num) // for ith row
+        while (i < num) // for ith column
         {
             cout << i + 1 << " ";
             i++;

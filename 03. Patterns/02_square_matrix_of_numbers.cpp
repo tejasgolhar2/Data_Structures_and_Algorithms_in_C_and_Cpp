@@ -17,7 +17,7 @@ int main()
             6 6 6 6 6 6
     */
 
-    // 'i' is for the number of columns and j is for the number of rows
+    // 'i' is for the number of rows and j is for the number of columns
 
     int i = 0;
     while (i < a)

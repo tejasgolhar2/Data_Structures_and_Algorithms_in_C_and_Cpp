@@ -25,7 +25,7 @@ int main()
         int j = 0;
         while (j < num)
         {
-            cout << (char)value << " "; // typecasting ascii value into characters
+            cout << (char)value << " "; // typecasting ascii integer value into characters
             j++;
         }
         cout << "\n";

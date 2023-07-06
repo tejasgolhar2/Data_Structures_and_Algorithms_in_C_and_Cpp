@@ -17,6 +17,9 @@ int main()
             {
                 cout<<"The entered number is prime"<<endl;
             }
+
+        //In spite of using the if condition above, we can use break statement or return 0
+         
         }
         else if((n%i==0))
         {

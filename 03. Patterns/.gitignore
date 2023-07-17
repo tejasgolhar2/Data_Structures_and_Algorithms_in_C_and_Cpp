@@ -31,10 +31,8 @@
 *.out
 *.app
 
-#Stackoverflow Extensionless comment
-#Uncommet below in Linux
-#Comment below in Windows
-
-*
+#stackoverflow2
+'*
 !/**/
 #!*.*
+

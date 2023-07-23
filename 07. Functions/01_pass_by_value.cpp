@@ -21,3 +21,11 @@ int main()
 
     return 0;
 }
+
+/*  
+    Pass By Value (explained in brief)
+        When you pass a variable to a function by value, a copy of the variable's
+    value is made, and this copy is used inside the function. Any changes made
+    to the parameter inside the function do not affect the original variable
+    outside the function.
+*/

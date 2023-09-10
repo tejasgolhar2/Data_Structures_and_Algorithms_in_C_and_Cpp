@@ -14,6 +14,10 @@ void getArray(int array[],int size)
 int binarySearch(int array[],int size, int key)
 {
     int start = 0,end = size-1;
+
+    // Point for exception arrival due to extended value of Mid beyond integer range
+    // Refer Exception Handling File for binary search
+    
     int mid = (start+end)/2;
 
     while(start<=end)

@@ -26,7 +26,7 @@ int binarySearch(int array[],int size, int key)
         {
             end = mid - 1;
         }
-        else if(key>mid)
+        else if(key>array[mid])
         {
             start = mid + 1;
         }

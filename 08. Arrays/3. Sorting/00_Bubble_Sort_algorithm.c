@@ -48,3 +48,7 @@ int main()
 		printf("%d ",arr[i]);
 	}
 }
+
+// Time Complexity : 
+//  	Best case : O(n)
+// 		Worst Case: O(n^2)

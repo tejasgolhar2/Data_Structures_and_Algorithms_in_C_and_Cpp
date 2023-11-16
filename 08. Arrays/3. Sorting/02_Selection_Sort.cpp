@@ -21,7 +21,8 @@ int main()
 		cout<<arr[i]<<" ";
 	}
 
-	// SOrting algorithm
+	// SOrting algorithm  -- To select the minimum value among the present unsorted elements
+
 	for(int i=0;i<n-1;i++)
 	{
 		int min = i;

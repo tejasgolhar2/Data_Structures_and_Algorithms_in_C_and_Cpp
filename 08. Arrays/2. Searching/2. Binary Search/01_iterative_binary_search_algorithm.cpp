@@ -2,9 +2,7 @@
 
 using namespace std;
 
-
-// The array elements should be in "monotonous order"
-
+// The array elements should be in "monotonous order" -- either with increasing or decreasing order of element arrangement
 
 void getArray(int array[], int size)
 {
@@ -15,12 +13,11 @@ void getArray(int array[], int size)
     }
 }
 
-
 int binarySearch(int array[], int size, int key)
 {
     int start = 0, end = size - 1;
 
-    int mid = start + (end - start)/2 ;               //  Exception due to extended value of 'mid' beyond integer range
+    int mid = (start + end) / 2;    //  Exception due to extended value of 'mid' beyond integer range
 
     while (start <= end)
     {
@@ -28,11 +25,11 @@ int binarySearch(int array[], int size, int key)
         {
             return mid;
         }
-        if (key < array[mid])
+        else if (key < array[mid])
         {
             end = mid - 1;
         }
-        else if (key > array[mid])
+        else
         {
             start = mid + 1;
         }
@@ -40,7 +37,6 @@ int binarySearch(int array[], int size, int key)
     }
     return -1;
 }
-
 
 int main()
 {
